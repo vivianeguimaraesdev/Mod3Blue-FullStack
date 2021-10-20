@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+.card {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+  list-style: none;
+  background-color: rgb(134, 134, 136);
+}
+
+.cardLink {
+  color: rgb(73, 72, 72);
+  font-family: 'Roboto';
+}
+.cardBody {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card h5 {
+  font-size: 2em;
+  font-family: 'Roboto';
+}
+
+.card h6 {
+  font-size: .7em;
+  font-family: 'Roboto';
+}
+
+.cardSpan {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size:1em;
+  font-family: 'Roboto';
+}
+
+.cardPrio{
+  text-align: center;
+  padding: 12px;
+  width: 100px;
+  margin: 8px;
+  background-color:rgb(161, 47, 47);
+  color: rgb(134, 133, 133); 
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
+
+.cardStatus {
+  text-align: center;
+  padding: 12px;
+  width: 100px;
+  margin: 8px;
+  background-color:rgb(47, 68, 161);
+  color: rgb(134, 133, 133); 
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
+
+.cardDline {
+  text-align: center;
+  padding: 12px;
+  width: 100px;
+  margin: 8px;
+  background-color:rgb(4, 58, 4);
+  color: rgb(134, 133, 133); 
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}

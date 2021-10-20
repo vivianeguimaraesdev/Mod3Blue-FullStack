@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+.navbar {
+  position:absolute;
+  overflow:hidden;
+  top:0;
+  width:100%;
+  height: 6rem;
+  background-color: #161616;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navUl {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navItem {
+  text-decoration: none;
+  list-style: none;
+  padding:1rem
+}
+
+.tasksPage {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.navLink {
+  color: #FFF;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+
+
+
+
+

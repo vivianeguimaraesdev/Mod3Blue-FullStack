@@ -1,0 +1,11 @@
+.cardListContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  position:absolute;
+  overflow:auto;
+  top: 8.4rem;
+  bottom: 46px;
+  background-color: #ffff;
+}
